@@ -10,10 +10,10 @@ const scissors_div=document.getElementById('s');
 
 function getComputerChoice () {
   const Choices=['r','p','s'];
-  const randomNumber=Math.floor(math.random() *3);
+  const randomNumber=Math.floor(math.random() *3)+1;
   return Choices[randomNumber];
 }
-console.log
+
 function convertToWord(letter){
   if( letter==="r")return "Rock";
   if(letter==="p")return "paper";
